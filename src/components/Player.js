@@ -11,7 +11,7 @@ class Player extends PureComponent  {
       <div className="player">
         <span className="player-name">
           <button className="remove-player" onClick={() => this.props.removePlayer(this.props.id)}>✖</button>
-          <button className="remove-player" onClick={() => this.props.leaderID()}>Y</button>
+          
 
           <Icon  
                   
